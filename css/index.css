@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef5f9;
+}
+
+.header {
+  padding-block: 1em;
+  background-color: #5a1c6b;
+  color: #eef5f9;
+}
+
+.navbar,
+.hero-title,
+.coworking-caption {
+  padding-inline: 1rem;
+}
+
+.hero,
+.coworking-space {
+  margin-inline: auto;
+  max-inline-size: 41rem;
+  background-color: #fff;
+}
+.navbar {
+  margin-inline: auto;
+  max-inline-size: 41rem;
+}
+
+.hero {
+  padding-block: .5em;
+}
+
+.navbar-list {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  gap: .6em;
+  list-style-type: none;
+}
+
+.navbar-burger {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.coworking-space {
+  position: relative;
+}
+
+.coworking-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .5em 1em;
+  font-weight: 500;
+  background-color: #27cbd4;
+}
+
+.coworking-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25em;
+  font-weight: 500;
+} 
+
+.coworking-btn {
+  padding: .7em 1.4em;
+  font-weight: bold;
+  background-color: #7f2f3a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.navbar-logo {
+  font-weight: bold;
+}
+
+.icon {
+  inline-size: 2rem;
+}
+
+.coworking-img {
+  inline-size: 100%;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 1.8rem;
+  right: 1rem;
+  inline-size: 3.125rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  background-color: #bc88be;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: .8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.attribution-cta {
+  font-weight: bold;
+}
